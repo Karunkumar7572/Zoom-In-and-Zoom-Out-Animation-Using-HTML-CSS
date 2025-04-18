@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+ 
+    margin: 100px auto;
+    height: 450px;
+    width: 350px;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px black;
+
+}
+.container img{
+    height: inherit;
+    width:inherit;
+    border-radius: 40px;
+    transition: all 1s;
+    filter: grayscale(100%);
+    
+
+}
+.container img:hover{
+    transform: scale(1.5,1.5);
+    filter: grayscale(0%);
+}
